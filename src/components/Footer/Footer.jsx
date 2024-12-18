@@ -38,6 +38,11 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
+            <div className="row mt-4 bg-dark">
+                    <p className="small mb-0">
+                        &copy;Copyright © Your Website 2023
+                    </p>
+            </div>
         </footer>
     );
 };
