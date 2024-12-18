@@ -38,7 +38,6 @@ const Contact = () => {
                             className="form-control border-0 border-bottom"
                             id="floatingMessage"
                             placeholder="Message"
-                            style={{ height: '100px' }}
                         ></textarea>
                         <label htmlFor="floatingMessage">Message</label>
                     </div>
