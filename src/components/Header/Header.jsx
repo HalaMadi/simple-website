@@ -1,4 +1,3 @@
-import React from 'react'
 import avatar from '../../assets/img/avataaars.svg'
 import star from '../../assets/star.svg'
 const Header = () => {
