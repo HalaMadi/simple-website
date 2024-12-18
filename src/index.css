@@ -1,3 +1,56 @@
 body {
     font-family: "Montserrat", sans-serif;
 }
+
+/* Navbar Component */
+.navbar {
+    background-color: #2C3E50;
+}
+
+.navbar .nav-item .nav-link:hover {
+    color: #1ABC9C !important;
+}
+
+/* header component */
+.header {
+    background-color: #1ABC9C;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header .avatar {
+    width: 240px;
+    margin-bottom: 50px;
+}
+
+.header h1 {
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 64px;
+}
+
+.custom-star {
+    height: 30px;
+}
+
+.lines {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+}
+
+.lines::after,
+.lines::before {
+    content: '';
+    height: 3px;
+    flex-grow: 1;
+    background-color: #fff;
+    margin: 0px 30px;
+}

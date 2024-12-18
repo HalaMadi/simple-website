@@ -1,4 +1,6 @@
-import './style.css'
+
+import React from 'react'
+import '../../index.css'
 const Navbar = () => {
     return (
         <>
@@ -10,7 +12,7 @@ const Navbar = () => {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0 d-flex gap-4">
-                        <li className="nav-item">
+                            <li className="nav-item">
                                 <a className="nav-link active text-white fw-bold" aria-current="page" href="#">PORTFOLIO</a>
                             </li>
                             <li className="nav-item">
