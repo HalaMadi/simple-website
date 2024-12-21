@@ -13,7 +13,7 @@ const Portfolio = () => {
                 {portfolioImg.map((image, index) =>
                 // I add the key to remove the error from eslint
                     <div className="col-md-4 my-4" key={index}> 
-                        <img src={image} className="img-fluid" />
+                        <img src={image} />
                     </div>
                 )}
             </div>

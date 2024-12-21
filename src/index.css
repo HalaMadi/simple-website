@@ -34,27 +34,24 @@ body {
     font-size: 64px;
 }
 
+.divider-custom {
+    margin: 1.25rem 0 ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divider-custom .divider-custom-line {
+    width: 100%;
+    max-width: 150px;
+    height: 3px;
+    background-color: #ffffff;
+    border-radius: 16px;
+}
 .custom-star {
     height: 30px;
 }
-
-.lines {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-
-
-}
-
-.lines::after,
-.lines::before {
-    content: '';
-    height: 3px;
-    flex-grow: 1;
-    background-color: #fff;
-    margin: 0px 30px;
-}
-
 /* Portfolio Component */
 
 .portfolio img {
@@ -64,28 +61,19 @@ body {
 }
 
 /* About Component */
-.about {
-    background-color: #1abc9c;
-    color: white;
+.about{
+    background-color: #1ABC9C;
+    color: #fff;
     padding: 50px 0;
 }
-
 .about .btn {
     border: 2px solid white;
-    color: white;
-    font-size: 1.2rem;
-    padding: 10px 20px;
-    transition: all 0.3s ease;
+    padding: 10px 20px ;
 }
-
-.about .btn:hover {
-    background-color: white;
-    color: #1abc9c;
+.about .paragraph{
+    font-size: 18px;
+    font-weight: 300 ;
 }
-.custom-container {
-    max-width:900px;
-    margin: 0 auto; 
-  }
   
   /* Contact Component */
 .form-control {
