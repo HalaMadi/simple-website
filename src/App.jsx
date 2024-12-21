@@ -14,6 +14,9 @@ const App=()=> {
       <About/>
      <Contact/>
      <Footer/>
+     <div className="row bg-dark text-center">
+                <p className="small text-white">&copy;Copyright © Your Website 2023</p>
+            </div>
     </>
   )
 }

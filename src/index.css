@@ -42,11 +42,11 @@ body {
 }
 
 .divider-custom .divider-custom-line {
-   width: 100%;
-   max-width: 150px;
-   height: 3px;
-   background-color: #fff;
-   border-radius: 30px;
+    width: 100%;
+    max-width: 150px;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 30px;
 }
 
 .custom-star {
@@ -77,25 +77,27 @@ body {
     font-size: 18px;
     font-weight: 300;
 }
-.about .btn:hover{
+
+.about .btn:hover {
     background-color: #ecf0f1;
     color: #1ABC9C;
 }
 
 /* Contact Component */
 
- .form-floating{
+.form-floating {
     font-size: 18px;
- }
+}
 
 .form-control:focus {
     box-shadow: none;
 }
+
 .custom-btn {
     background-color: #1abc9c;
-color: white;
-padding: 10px 20px;
-transition: all 0.3s ease;
+    color: white;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
 }
 
 /* Footer Component */
@@ -104,7 +106,6 @@ transition: all 0.3s ease;
     color: #ecf0f1;
 }
 
-.footer .fab {
-    font-size: 1.5rem;
-    transition: transform 0.3s ease;
+.footer p{
+    font-size: 14px;
 }
