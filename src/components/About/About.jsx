@@ -2,7 +2,7 @@ import star from '../../assets/star.svg'
 
 const About = () => {
     return (
-        <div className="about text-center">
+        <div className="about text-center my-4">
             <h2 className='fw-bold fs-1 text-uppercase my-4'>About</h2>
             <div className="divider-custom divider-light">
                 <div className="divider-custom-line"></div>

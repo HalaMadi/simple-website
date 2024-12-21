@@ -1,6 +1,7 @@
 import "./../../index.css";
 const Footer = () => {
     return (
+        <>
         <footer className="footer text-center py-5">
             <div className="container">
                 <div className="row">
@@ -21,6 +22,10 @@ const Footer = () => {
                 </div>
             </div>
         </footer>
+        <div className="row bg-dark text-center">
+                <p className="small text-white">&copy;Copyright © Your Website 2023</p>
+            </div>
+        </>
     );
 };
 
